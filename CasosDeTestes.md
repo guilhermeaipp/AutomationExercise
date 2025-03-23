@@ -2,7 +2,8 @@
 
 ## 1. Acesso à Aplicação  
 **ID:** TC001  
-**Descrição:** Verificar se a aplicação carrega corretamente.  
+**Descrição:** Verificar se a aplicação carrega corretamente.   
+
 **Passos:**  
 1. Acessar `https://www.automationexercise.com`  
 2. Verificar se a página carrega com sucesso  
@@ -13,7 +14,8 @@
 
 ## 2. Verificação do Título  
 **ID:** TC002  
-**Descrição:** Validar se o título da página está correto.  
+**Descrição:** Validar se o título da página está correto.   
+
 **Passos:**  
 1. Acessar `https://www.automationexercise.com`  
 2. Capturar o título da página  
@@ -21,11 +23,13 @@
 
 **Resultado Esperado:** O título da página deve ser `"Automation Exercise"`.
 
+---
+
 ## 3. Cadastro e Exclusão de Conta
-**ID:** TC003 
+**ID:** TC003  
 **Descrição:** Validar o processo completo de criação e exclusão de uma conta de usuário, incluindo a navegação, preenchimento de formulários, verificação de mensagens de sucesso e exclusão da conta.  
 
-#### *Cadastro de conta*
+#### *Cadastro de conta*   
 **Passos:**  
 1. Acessar `https://www.automationexercise.com`  
 2. Verificar se a página inicial é exibida corretamente.
@@ -65,14 +69,15 @@ Número de Celular
 7. Verificar se a mensagem 'ACCOUNT DELETED!' está visível.
 8. clicar no botão 'Continue'.
  
- 
+
  **Resultado Esperado:** O usuário deve ser capaz de excluir uma conta com sucesso, visualizar a mensagem "ACCOUNT DELETED!"
 
+---
 
 ## 4. Tentativa de criar conta com email já cadastrado
-**ID:** TC004
-**Descrição:** Este teste verifica o comportamento do sistema quando o usuário tenta se registrar com um e-mail que já está associado a uma conta existente. O sistema deve impedir o cadastro e exibir uma mensagem de erro informando que o e-mail já foi utilizado para outra conta.
-**Passos:**  
+**ID:** TC004   
+**Descrição:** Este teste verifica o comportamento do sistema quando o usuário tenta se registrar com um e-mail que já está associado a uma conta existente. O sistema deve impedir o cadastro e exibir uma mensagem de erro informando que o e-mail já foi utilizado para outra conta.  
+**Passos:**
 1. Acessar https://www.automationexercise.com.
 2. Verificar se a página inicial é exibida corretamente.
 3. Clicar no botão 'Signup / Login'.
@@ -83,6 +88,27 @@ Número de Celular
 
  
  **Resultado Esperado:** O sistema deve apresentar a mensagem de erro "Email Address already exist!" quando o usuário tentar registrar um e-mail já utilizado. O botão 'Signup' não deve permitir o cadastro e o usuário deve ser notificado de que o e-mail já foi registrado.
+
+ ---
+
+## 5. Acesso com senha inválida
+**ID:** TC005   
+**Descrição:** Este teste verifica se o sistema exibe corretamente a mensagem de erro ao tentar fazer login com uma senha inválida.  
+
+**Passos:**
+1. Acessar https://www.automationexercise.com.
+2. Verificar se a página inicial é exibida corretamente.
+3. Clicar no botão 'Signup / Login'.
+4. Verificar se a mensagem 'Login to your account' está visível.
+5. Inserir nome e endereço de e-mail e uma senha incorreta.
+6. Clicar no botão 'Login'.
+7. O sistema deve exibir a mensagem: "Your email or password is incorrect!", informando que os dados de login estão incorretos.
+
+ 
+ **Resultado Esperado:** O sistema deve impedir o login e exibir a mensagem "Your email or password is incorrect!", garantindo que apenas usuários com credenciais corretas consigam acessar a conta.
+
+ ---
+
 
 
 

@@ -7,10 +7,8 @@ describe("TC003 - Cadastro e Exclusão de Conta", function() {
 
     //Verificar se a página inicial é exibida corretamente
     cy.url().should('include', '/'); 
-    //Clicar no botão 'Signup / Login'
-    cy.get('button[type="submit"]').click()  
-
-    //Verifica e clica no botão Signup
+    
+    //Verifica e clica no botão Signup / Login'
     cy.get('a[href="/login"]').click(); 
   
     //Verifica se a mensagem 'New User Signup!' está visível
