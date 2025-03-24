@@ -42,16 +42,16 @@
 9. Marcar a opção 'Sign up for our newsletter!'.
 10. Marcar a opção 'Receive special offers from our partners!'.
 11. Preencher os seguintes dados:
-Nome
-Sobrenome
-Empresa
-Endereço
-Endereço 2
-País
-Estado
-Cidade
-CEP 
-Número de Celular
+"Nome"
+"Sobrenome"
+"Empresa"
+"Endereço"
+"Endereço 2"
+"País"
+"Estado"
+"Cidade"
+"CEP" 
+"Número de Celular"
 12. Clicar no botão 'Create Account'.
 13. Verificar se a mensagem 'ACCOUNT CREATED!' está visível.
 14. Clicar no botão 'Continue'.
@@ -70,7 +70,7 @@ Número de Celular
 8. clicar no botão 'Continue'.
  
 
- **Resultado Esperado:** O usuário deve ser capaz de excluir uma conta com sucesso, visualizar a mensagem "ACCOUNT DELETED!"
+ **Resultado Esperado:** O usuário deve ser capaz de excluir uma conta com sucesso, visualizar a mensagem "ACCOUNT DELETED!".
 
 ---
 
