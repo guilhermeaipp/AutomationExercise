@@ -49,8 +49,8 @@ describe("TC006 - Adicionar Produtos ao Carrinho e Verificar Detalhes", function
     .find('a.add-to-cart') 
     .click(); 
     
-    //Clicar no botão 'Continue Shopping'.
-    cy.contains('button', 'Continue Shopping').click();
+    //Clicar no botão 'View Cart'.
+    cy.contains('u', 'View Cart').click();
 
 
     //Verificar se os dois produtos foram adicionados ao carrinho.
