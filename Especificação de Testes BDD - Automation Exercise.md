@@ -68,29 +68,29 @@
 
 **Cenário:** TC006 Usuário adiciona dois produtos ao carrinho e verifica os detalhes
     
-**Dado** que o usuário abre o navegador.  
+**Dado** que o usuário abre o navegador  
 
-**E** acessa a URL 'http://automationexercise.com'.
+**E** acessa a URL 'http://automationexercise.com'
 
-**Quando** a página inicial for carregada com sucesso.  
+**Quando** a página inicial for carregada com sucesso  
 
 **E** o usuário clicar no botão 'Products'  
 
 **E** passar o mouse sobre o primeiro produto e clicar em 'Add to cart'  
 
-**E** clicar no botão 'Continue Shopping'.  
+**E** clicar no botão 'Continue Shopping'  
 
 **E** passar o mouse sobre o primeiro produto novamente e clicar em 'Add to cart'  
 
-**E** clicar no botão 'Continue Shopping'.
+**E** clicar no botão 'Continue Shopping'
 
-**E** passar o mouse sobre o segundo produto e clicar em 'Add to cart'.  
+**E** passar o mouse sobre o segundo produto e clicar em 'Add to cart'  
 
-**E** clicar no botão 'View Cart'.  
+**E** clicar no botão 'View Cart'  
 
-**Então** os que produtos devem estar no carrinho.  
+**Então** os que produtos devem estar no carrinho  
 
-**E** os preços, quantidades e o valor total devem estar corretos
+**E** os preços, quantidades e o valor total devem estar corretos.
 
 
 

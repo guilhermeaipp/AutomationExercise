@@ -3,7 +3,7 @@
 
 ## Descrição
 
-Este repositório contém testes automatizados utilizando Cypress para validar funcionalidades da plataforma Automation Exercise. Os testes cobrem cenários como cadastro de usuário, login, navegação pelo site e interação com elementos
+Este repositório contém testes automatizados utilizando Cypress para validar funcionalidades da plataforma Automation Exercise. Os testes cobrem cenários como cadastro de usuário, login, navegação pelo site e interação com elementos.
 
 
 ## Tecnologias Utilizadas

@@ -5,8 +5,8 @@
 **Descrição:** Verificar se a aplicação carrega corretamente.   
 
 **Passos:**  
-1. Acessar `https://www.automationexercise.com`  
-2. Verificar se a página carrega com sucesso  
+1. Acessar `https://www.automationexercise.com`.  
+2. Verificar se a página carrega com sucesso.  
 
 **Resultado Esperado:** O site deve ser carregado sem erros.
 
@@ -17,9 +17,9 @@
 **Descrição:** Validar se o título da página está correto.   
 
 **Passos:**  
-1. Acessar `https://www.automationexercise.com`  
-2. Capturar o título da página  
-3. Comparar com o esperado `"Automation Exercise"`  
+1. Acessar `https://www.automationexercise.com`.  
+2. Capturar o título da página.  
+3. Comparar com o esperado `"Automation Exercise"`.  
 
 **Resultado Esperado:** O título da página deve ser `"Automation Exercise"`.
 
@@ -31,7 +31,7 @@
 
 #### *Cadastro de conta*   
 **Passos:**  
-1. Acessar `https://www.automationexercise.com`  
+1. Acessar `https://www.automationexercise.com`.  
 2. Verificar se a página inicial é exibida corretamente.
 3. Clicar no botão 'Signup / Login'.
 4. Verificar se a mensagem 'New User Signup!' está visível.
@@ -56,16 +56,16 @@ Número de Celular
 13. Verificar se a mensagem 'ACCOUNT CREATED!' está visível.
 14. Clicar no botão 'Continue'.
 
-**Resultado Esperado:** O usuário deve ser capaz de criar uma conta com sucesso, visualizar a mensagem "ACCOUNT CREATED!"
+**Resultado Esperado:** O usuário deve ser capaz de criar uma conta com sucesso, visualizar a mensagem "ACCOUNT CREATED!".
 
 ### Exclusão da conta
 **Passos:**  
-1. Acessar `https://www.automationexercise.com`  
+1. Acessar `https://www.automationexercise.com`.  
 2. Clicar no botão 'Signup / Login'.
 3. Digitar o e-mail.
-4. Digitar senha
-5. Clicar em Login
-6. Clicar no botão 'Delete Account'
+4. Digitar senha.
+5. Clicar em Login.
+6. Clicar no botão 'Delete Account'.
 7. Verificar se a mensagem 'ACCOUNT DELETED!' está visível.
 8. clicar no botão 'Continue'.
  
@@ -78,7 +78,7 @@ Número de Celular
 **ID:** TC004   
 **Descrição:** Este teste verifica o comportamento do sistema quando o usuário tenta se registrar com um e-mail que já está associado a uma conta existente. O sistema deve impedir o cadastro e exibir uma mensagem de erro informando que o e-mail já foi utilizado para outra conta.  
 **Passos:**
-1. Acessar https://www.automationexercise.com.
+1. Acessar 'https://www.automationexercise.com'.
 2. Verificar se a página inicial é exibida corretamente.
 3. Clicar no botão 'Signup / Login'.
 4. Verificar se a mensagem 'New User Signup!' está visível.
@@ -114,7 +114,7 @@ Número de Celular
 **Descrição:** Validar se o usuário consegue adicionar dois produtos ao carrinho, visualizar o conteúdo corretamente e verificar os preços, quantidades e valores totais. 
 
 **Passos:**
-1. Acessar https://www.automationexercise.com.
+1. Acessar 'https://www.automationexercise.com'.
 2. Verificar se a página inicial é exibida corretamente.
 3. Clicar no botão 'Products'.
 4. Passar o mouse sobre o primeiro produto e clicar em 'Add to cart'.
