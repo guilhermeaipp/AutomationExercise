@@ -119,14 +119,12 @@ Número de Celular
 3. Clicar no botão 'Products'.
 4. Passar o mouse sobre o primeiro produto e clicar em 'Add to cart'.
 5. Clicar no botão 'Continue Shopping'.
-6. Passar o mouse sobre o primeiro produto e clicar em 'Add to cart'.
+6. Passar o mouse sobre o primeiro produto novamente e clicar em 'Add to cart'.
 7. Clicar no botão 'Continue Shopping'.
-8. Passar o mouse sobre o primeiro produto novamente e clicar em 'Add to cart'.
-9. Clicar no botão 'Continue Shopping'.
-10. Passar o mouse sobre o segundo produto e clicar em 'Add to cart'.
-11. Clicar no botão 'View Cart'.
-12. Verificar se os dois produtos foram adicionados ao carrinho.
-13. Verificar se os preços, quantidades e o valor total estão corretos.
+8. Passar o mouse sobre o segundo produto e clicar em 'Add to cart'.
+9. Clicar no botão 'View Cart'.
+10. Verificar se os dois produtos foram adicionados ao carrinho.
+11. Verificar se os preços, quantidades e o valor total estão corretos.
 
  
  **Resultado Esperado:** Ambos os produtos devem estar no carrinho, com os preços, quantidades e valores totais exibidos corretamente.

@@ -27,11 +27,12 @@ describe("TC006 - Adicionar Produtos ao Carrinho e Verificar Detalhes", function
   //Clicar no botão 'Continue Shopping'.
   cy.contains('button', 'Continue Shopping').click();
 
+  //Passar o mouse sobre o primeiro produto novamente e clicar em 'Add to cart'.
     cy.get('img[src="/get_product_picture/1"]')
-    .parents('div.productinfo.text-center') // Encontra o elemento pai div.productinfo.text-center
-    .trigger('mouseover') // Passa o mouse sobre o elemento pai
-    .find('a.add-to-cart') // Encontra o botão "Add to cart" dentro do elemento pai
-    .click(); // Clica no botão
+    .parents('div.productinfo.text-center') 
+    .trigger('mouseover') 
+    .find('a.add-to-cart') 
+    .click(); 
 
     //Clicar no botão 'Continue Shopping'.
     cy.contains('button', 'Continue Shopping').click();
