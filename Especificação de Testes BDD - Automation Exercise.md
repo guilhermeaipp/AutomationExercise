@@ -51,15 +51,6 @@
 
 **Então** o sistema deve exibir a mensagem "Email Address already exist!".
 
-**Funcionalidade:** Login com Senha Inválida
-**Cenário:** TC005 - Tentativa de login com senha incorreta
-
-**Dado** que o usuário tenta fazer login com um e-mail válido e senha incorreta
-
-**Quando** clica em "Login"
-
-**Então** o sistema deve exibir a mensagem "Your email or password is incorrect!".
-
 ---
 
 ### **Funcionalidade:** Login com Senha Inválida
