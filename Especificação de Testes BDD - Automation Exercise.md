@@ -24,7 +24,7 @@
 ---
 
 ### **Funcionalidade:** Cadastro e Exclusão de Conta
-#### **Cenário:** TC003.01 - Cadastro de conta
+##### **Cenário:** TC003.01 - Cadastro de conta
 
 **Dado** que o usuário acessa https://www.automationexercise.com e navega até a tela de cadastro
 
