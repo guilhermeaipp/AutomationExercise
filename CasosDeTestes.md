@@ -123,7 +123,7 @@ Número de Celular
 7. Clicar no botão 'Continue Shopping'.
 8. Passar o mouse sobre o segundo produto e clicar em 'Add to cart'.
 9. Clicar no botão 'View Cart'.
-10. Verificar se os dois produtos foram adicionados ao carrinho.
+10. Verificar se os produtos foram adicionados ao carrinho.
 11. Verificar se os preços, quantidades e o valor total estão corretos.
 
  

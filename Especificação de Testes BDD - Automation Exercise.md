@@ -88,7 +88,7 @@
 
 **E** clicar no botão 'View Cart'.  
 
-**Então** os dois produtos devem estar no carrinho.  
+**Então** os que produtos devem estar no carrinho.  
 
 **E** os preços, quantidades e o valor total devem estar corretos
 
