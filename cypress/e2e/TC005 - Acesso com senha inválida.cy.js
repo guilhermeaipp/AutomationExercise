@@ -1,4 +1,4 @@
-describe("TC005 - Acesso com senha inválida.cy", function() {
+describe("TC005 - Acesso com senha inválida", function() {
     beforeEach(function() {
       cy.acessarAplicacao(); 
     });

@@ -109,6 +109,29 @@ Número de Celular
 
  ---
 
+## 6. Adicionar Produtos ao Carrinho e Verificar Detalhes
+**ID:** TC006   
+**Descrição:** Validar se o usuário consegue adicionar dois produtos ao carrinho, visualizar o conteúdo corretamente e verificar os preços, quantidades e valores totais. 
+
+**Passos:**
+1. Acessar https://www.automationexercise.com.
+2. Verificar se a página inicial é exibida corretamente.
+3. Clicar no botão 'Products'.
+4. Passar o mouse sobre o primeiro produto e clicar em 'Add to cart'.
+5. Clicar no botão 'Continue Shopping'.
+6. Passar o mouse sobre o primeiro produto e clicar em 'Add to cart'.
+7. Clicar no botão 'Continue Shopping'.
+8. Passar o mouse sobre o primeiro produto novamente e clicar em 'Add to cart'.
+9. Clicar no botão 'Continue Shopping'.
+10. Passar o mouse sobre o segundo produto e clicar em 'Add to cart'.
+11. Clicar no botão 'View Cart'.
+12. Verificar se os dois produtos foram adicionados ao carrinho.
+13. Verificar se os preços, quantidades e o valor total estão corretos.
+
+ 
+ **Resultado Esperado:** Ambos os produtos devem estar no carrinho, com os preços, quantidades e valores totais exibidos corretamente.
+
+ ---
 
 
 
