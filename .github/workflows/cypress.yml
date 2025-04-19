@@ -15,8 +15,7 @@ jobs:
         with:
           start: npm run test  # Rodando os testes sem abrir o Cypress
           wait-on: 'http://localhost:3000' # Ajuste se for necessário
-          record: true
+          record: true         # Adicione isso para gravar os testes
           parallel: true
         env:
-          # O GITHUB_TOKEN já é automaticamente disponível no ambiente
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
