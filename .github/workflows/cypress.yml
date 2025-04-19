@@ -1,21 +1,12 @@
-name: Cypress Tests
-on: [push]
+name: End-to-end tests
+on: push
 jobs:
   cypress-run:
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        containers: [1, 2] # Testa em 2 containers paralelos
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Cypress run
         uses: cypress-io/github-action@v6
-        with:
-          start: npm run test  # Rodando os testes sem abrir o Cypress
-          wait-on: 'http://localhost:3000' # Ajuste se for necessário
-          record: true         # Adicione isso para gravar os testes
-          parallel: true
-        env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+
+        
