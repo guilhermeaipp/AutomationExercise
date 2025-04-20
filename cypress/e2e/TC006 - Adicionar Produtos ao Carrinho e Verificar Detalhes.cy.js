@@ -31,7 +31,7 @@ describe("TC006 - Adicionar Produtos ao Carrinho e Verificar Detalhes", function
     cy.get('img[src="/get_product_picture/1"]')
     .parents('div.productinfo.text-center') 
     .trigger('mouseover') 
-    .find('a.add-to-cart') 
+    .find('a.add-to-car') 
     .click(); 
 
     //Clicar no botão 'Continue Shopping'.
